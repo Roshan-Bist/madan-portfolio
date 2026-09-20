@@ -220,6 +220,7 @@ const About = () => {
             width: 100%;
             height: 100%;
             object-fit: cover;
+            object-position: center 22%;
             filter: grayscale(100%) contrast(1);
             transition: var(--transition);
          }

@@ -221,6 +221,7 @@ const Home = () => {
                 height: clamp(180px, 28vw, 280px);
                 border-radius: 50%;
                 object-fit: cover;
+                object-position: center 22%;
                 border: 3px solid var(--primary-color);
                 box-shadow: 0 10px 40px -10px var(--primary-glow);
                 transition: transform 0.5s var(--ease-out-expo), box-shadow 0.5s ease;

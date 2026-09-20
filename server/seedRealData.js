@@ -45,7 +45,8 @@ const seedRealData = async () => {
             certifications: ["Certified Crop Advisor"],
             languages: ["English", "Nepali"],
             interests: ["Sustainable Farming", "Environmental Conservation"],
-            portfolio: ""
+            portfolio: "",
+            image: "/uploads/profile.jpeg"
         };
 
         console.log("Updating Profile with real data...");
