@@ -1,0 +1,12 @@
+{
+    "name": "portfolio-roshan",
+    "version": "1.0.0",
+    "description": "Root package for Railway deployment",
+    "scripts": {
+        "postinstall": "npm install --prefix server && npm install --prefix client --legacy-peer-deps && npm run build --prefix client",
+        "start": "node server/server.js"
+    },
+    "engines": {
+        "node": ">=20.19.0"
+    }
+}
